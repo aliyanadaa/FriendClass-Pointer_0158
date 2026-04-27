@@ -55,5 +55,6 @@ class BelahKetupat
     {
         return 4 * s;
     }
-
+    friend void tampilkanKeliling(LayangLayang, BelahKetupat);
 };
+
