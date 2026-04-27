@@ -35,5 +35,7 @@ void siswa::setId(int pId)
 
 int main(){
     orang joko;
+    joko.setNama("Joko Kumat");
     siswa joko_siswa;
+
 }
