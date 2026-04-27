@@ -63,8 +63,24 @@ void tampilkanKeliling(LayangLayang ObjectLayang, BelahKetupat ObjectBelahKetupa
     double kelilingLayang = 2 * (ObjectLayang.s1 + ObjectLayang.s2);
     double kelilingBelah = 4 * ObjectBelahKetupat.s;
 
-    cout << "\n--- Hasil Keliling ---" << endl;
+    cout << "\n=== Hasil Keliling ===" << endl;
     cout << "Keliling Layang-Layang : " << kelilingLayang << endl;
     cout << "Keliling Belah Ketupat : " << kelilingBelah << endl;
 }
 
+int main()
+{
+    LayangLayang ObjectLayang;
+    BelahKetupat ObjectBelahKetupat;
+
+    ObjectLayang.inputData();
+    ObjectBelahKetupat.inputData();
+
+    cout << "\n=== Hasil Luas ===" << endl;
+    cout << "Luas Layang-Layang : " << ObjectLayang.hitungLuas() << endl;
+    cout << "Luas Belah Ketupat : " << ObjectBelahKetupat.hitungLuas() << endl;
+
+    tampilkanKeliling(ObjectLayang, ObjectBelahKetupat);
+
+    return 0;
+}
