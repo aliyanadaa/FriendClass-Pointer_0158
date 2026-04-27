@@ -38,6 +38,5 @@ int main(){
     joko.setNama("Joko Kumat");
     siswa joko_siswa;
     joko_siswa.setId(1);
-    
-
+    joko_siswa.displayAll(joko);
 }
