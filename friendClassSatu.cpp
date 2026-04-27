@@ -37,5 +37,7 @@ int main(){
     orang joko;
     joko.setNama("Joko Kumat");
     siswa joko_siswa;
+    joko_siswa.setId(1);
+    
 
 }
