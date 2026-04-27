@@ -58,3 +58,13 @@ class BelahKetupat
     friend void tampilkanKeliling(LayangLayang, BelahKetupat);
 };
 
+void tampilkanKeliling(LayangLayang ObjectLayang, BelahKetupat ObjectBelahKetupat)
+{
+    double kelilingLayang = 2 * (ObjectLayang.s1 + ObjectLayang.s2);
+    double kelilingBelah = 4 * ObjectBelahKetupat.s;
+
+    cout << "\n--- Hasil Keliling ---" << endl;
+    cout << "Keliling Layang-Layang : " << kelilingLayang << endl;
+    cout << "Keliling Belah Ketupat : " << kelilingBelah << endl;
+}
+
