@@ -1,4 +1,5 @@
 #include <iostream>
-#include <strring>
+#include <string>
 using namespace std;
 
+class siswa;
